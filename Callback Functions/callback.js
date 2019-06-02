@@ -12,9 +12,9 @@ window.onload = function () {
     // var bodyparts = ['fingers', 'nose', 'face']
     // bodyparts.forEach(callback)
     // console.log("done")
-
-
-
-    
+    $.get('data/tweets.json',function(data){
+        console.log(data)
+    });
+    console.log("test")
 
 };
